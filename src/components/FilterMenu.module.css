@@ -1,0 +1,24 @@
+.filter-menu {
+    margin: 0 auto;
+    max-width: 70%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+}
+
+.order-bttn {
+    font: inherit;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color-secondary);
+    color: var(--text-tertiary);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 7px;
+}
+
+.order-bttn:hover,
+.order-bttn:active {
+  cursor: pointer;
+}

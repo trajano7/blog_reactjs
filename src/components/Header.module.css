@@ -1,0 +1,65 @@
+.header-container {
+  background-color: inherit;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 3rem;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-container header {
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 2rem 0;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.input-container {
+  margin: 0 auto;
+  border: 2px solid #1b1b1b;
+  border-radius: 15px;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--background-color);
+  margin-top: 1rem;
+  width: 70%;
+  min-width: 2rem;
+}
+
+.input-container input {
+  margin-right: 1rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: inherit;
+  width: fit-content;
+}
+
+.search-icon {
+  margin-right: 0.3rem;
+  margin-left: 1rem;
+  color: rgba(255, 255, 255, 0.404);
+}
+
+@media (min-width: 800px) {
+  .header-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}

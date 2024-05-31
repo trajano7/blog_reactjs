@@ -1,0 +1,9 @@
+.bubble-loading {
+  width: 20rem;
+  height: 20rem;
+}
+
+.bubble-loading div {
+  width: 2rem;
+  height: 2rem;
+}

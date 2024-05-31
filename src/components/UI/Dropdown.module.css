@@ -1,0 +1,19 @@
+.dropdown {
+  font: inherit;
+  display: block;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--background-color-secondary);
+  color: var(--text-tertiary);
+  border-right: 0.5rem solid var(--background-color-secondary);
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown option {
+  background-color: var(--background-color-secondary);
+  color: var(--text-tertiary);
+}
